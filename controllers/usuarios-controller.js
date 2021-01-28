@@ -29,8 +29,6 @@ const createUsuarios = async (req, res = response) => {
             msg: error.code == 11000 ? 'This email is already registered!' :'Unexpected error, check logs.'
         });
     }
-
-
 };
 
 module.exports = {
